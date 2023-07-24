@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tea House</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/30eb8e483f.js" crossorigin="anonymous"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class=" bg-white ">
+  <!-- HERO -->
+  <header class=" mb-24 ">
+    <div class="container mx-auto">
+      <div class="hero min-h-screen">
+        <div class="hero-content flex-col lg:flex-row">
+          <div>
+            <h1 class="text-7xl font-extrabold text-[#1C1C1C]">It's good <br />
+              tea time at The <br /> Tea House</h1>
+            <p class="py-6 text-lg font-medium text-[#777]">Tea and Botanical Solutions Supplier Give Optimum <br />
+              Satisfaction To Your Taste Buds.</p>
+            <button class="btn bg-gradient-to-r from-[#FF8938] to-[#F00] border-none text-white">Explore More
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                <path d="M4.5 19.7788L19.5 4.77881M19.5 4.77881H8.25M19.5 4.77881V16.0288" stroke="white"
+                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </div>
+          <div>
+            <img src="assets/banner.png" class=" max-w-xs md:max-w-lg rounded-lg" />
+            <div class="bg-white flex items-center gap-3 shadow-xl p-4 w-64 rounded-xl relative -top-20 left-7">
+              <i class="fa-solid fa-star text-5xl" style="color: #fdda58;"></i>
+              <div>
+                <h2 class=" text-[#1C1C1C] text-3xl font-extrabold ">5.00</h2>
+                <p class="text-[#777] text-base font-semibold">Trust Pilot Ratting</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- PRODUCTS -->
+  <div class="container mx-auto my-24">
+    <div class="text-center px-4">
+      <div>
+        <h2 class="text-[#1C1C1C] text-5xl font-extrabold">Our Featured Products</h2>
+        <p class="text-[#777] text-base font-medium leading-7">There are many variations of passages of Lorem Ipsum
+          available, but the majority have suffered alteration in some form, by injected humour, or randomised words
+          which don't look even slightly believable. </p>
+      </div>
+      <div class="products flex flex-col lg:flex-row lg:justify-center items-center ">
+        <div class="card w-64 bg-gradient-to-b from-[#f4f4f4] to-[#fff] shadow-xl lg:mx-4">
+          <figure class="px-10 pt-10">
+            <img src="assets/tea-1.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-[#1C1C1C] text-3xl font-extrabold">Milk Tea</h2>
+            <p class="text-[#777] text-base font-semibold">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <div class="card w-64 bg-gradient-to-b from-[#f4f4f4] to-[#fff] shadow-xl lg:mx-4">
+          <figure class="px-10 pt-10">
+            <img src="assets/tea-2.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-[#1C1C1C] text-3xl font-extrabold">Milk Tea</h2>
+            <p class="text-[#777] text-base font-semibold">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <div class="card w-64 bg-gradient-to-b from-[#f4f4f4] to-[#fff] shadow-xl lg:mx-4">
+          <figure class="px-10 pt-10">
+            <img src="assets/tea-3.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-[#1C1C1C] text-3xl font-extrabold">Milk Tea</h2>
+            <p class="text-[#777] text-base font-semibold">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <div class="card w-64 bg-gradient-to-b from-[#f4f4f4] to-[#fff] shadow-xl lg:mx-4">
+          <figure class="px-10 pt-10">
+            <img src="assets/tea-4.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-[#1C1C1C] text-3xl font-extrabold">Milk Tea</h2>
+            <p class="text-[#777] text-base font-semibold">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- GREAT TEA, FRESHLY PRESENTED -->
+  <div class="container mx-auto mb-24">
+    <div class="flex flex-col lg:flex-row items-center lg:items-start px-4">
+      <div class=" grid grid-cols-1 md:grid-cols-2 gap-8 flex-1 px-4 md:mb-12 lg:mb-0">
+        <div class=" w-60 h-36 bg-gradient-to-r from-[#F00] to-[#FF8938] opacity-10 rounded-xl"></div>
+        <div class="row-span-2">
+          <img class="w-60 bg-[#E6A6231A] px-8 pt-14 pb-8  rounded-xl" src="assets/fresh-1.png" />
+        </div>
+        <div class="row-span-2">
+          <img class="w-60 bg-[#5776391A] px-12 pt-10 pb-11  rounded-xl" src="assets/fresh-2.png" />
+        </div>
+        <div class=" w-60 h-36 bg-gradient-to-r from-[#D9D9D9] to-[#FFFFFF] rounded-xl"></div>
+      </div>
+      <div class="flex-1 text-center lg:text-start">
+        <h2 class="text-[#1c1c1c] text-5xl font-extrabold pb-5">Great Tea, Freshly Presented</h2>
+        <p class="text-[#777] text-base font-medium pb-8 leading-7">The meaning of gong cha is chanese is to provide the
+          best tea to emperor from all possessions . It represents the highest quality and self expectation.
+          Establishing in 2006, Gong cha had been deeply appreciated by its custoers because of good words of mouth and
+          unique customized service orginated from Taiwan.</p>
+        <h5 class="text-[#1c1c1c] text-xl font-extrabold pb-3">Unique Taste</h5>
+        <p class="text-[#777] text-base font-medium leading-7">A Unique and different style from other teapots gives a
+          luxurious and minimalist impression</p>
+        <h5 class="text-[#1c1c1c] text-xl font-extrabold pb-3">Premium Quality</h5>
+        <p class="text-[#777] text-base font-medium leading-7">Premium Quality that makes tea more elegant and more
+          durable when you use it.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mx-auto">
+    <div>
+      <div class="hero min-h-screen">
+        <div class="hero-content flex-col lg:flex-row bg-[url('assets/Rectangle.png')] bg-cover bg-no-repeat ">
+          <div class="flex-1 pl-16 py-40">
+            <h1 class="text-[#F4F4F4] text-5xl font-extrabold mb-5">Meet Our Super <br/>
+            Clients
+            </h1>
+            <p class="py-6 text-[#F4F4F4] text-base font-medium leading-7 pb-11">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+            <button class="btn w-36 h-14 bg-white rounded-lg border-none">
+              <span class="text-xl font-bold bg-gradient-to-r from-[#FF8938] to-[#F00] inline-block text-transparent bg-clip-text">Show All</span></button>
+          </div>
+          <div class="flex-1">
+            <div class="max-w-md bf bg-white flex justify-center items-center rounded-lg ">
+              <img class=" relative -top-24 -left-6 outline-4 outline-white " src="assets/client.png" />
+              <div class=" ">
+                <p class=" pt-10 text-[#777] text-base font-normal leading-7 mb-5 ">We are providing the best and suitable home insurance services for the people who are interested to
+                  treatment</p>
+                  <h5 class="text-[#1C1C1C] text-base font-bold leading-7">Ilham Yuda</h5>
+                  <p class="text-[#5D5A6F] text-base font-normal leading-7 mb-8">Businessman</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
